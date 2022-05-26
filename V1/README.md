@@ -31,3 +31,28 @@ and it must be more that (or eqiual) to MinPasswordLength
 ## getSymbolsCount()
 - this method will return Symbols Count these are in the password (Byte Data Type)
 
+
+<hr>
+
+For Example :
+here is the Main Method code (that is found in Program Class that is found in any c# template):
+
+<code>
+         static void Main(string[] args)
+        {  
+            Console.WriteLine("Write Your Password !");
+            string PasswordFromInput = Console.ReadLine();
+            string PasswordRate = PasswordValidator.checkPassword(PasswordFromInput);
+
+            Byte CapitalLettersCount = PasswordValidator.getCapitalLettersCount(),
+                   SmallLettersCount = PasswordValidator.getSmallLettersCount(),
+                   NumbersCount = PasswordValidator.getNumbersCount(),
+                   SymbolsCount = PasswordValidator.getSymbolsCount();
+             
+            Console.WriteLine("Password Rate : " + PasswordRate);
+            Console.WriteLine("Capital Letters Count = " + CapitalLettersCount);
+            Console.WriteLine("Small Letters Count = " + SmallLettersCount);
+            Console.WriteLine("Numbers Count = " + NumbersCount);
+            Console.WriteLine("Symbols Count = " + SymbolsCount);
+        }       
+ <code>
