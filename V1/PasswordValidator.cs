@@ -66,7 +66,7 @@ namespace ValidationLibraries
         //this method will return Symbols Count these are in the password (Byte Data Type)
         static public Byte getSymbolsCount() { return SymbolsCount; }
 
-
+        // Private Methodes Part .... you cann't use it direct .... it is an internal operations
         static private bool CharackterIsNumber(char charackter)
         { 
             if (char.IsNumber(charackter))
