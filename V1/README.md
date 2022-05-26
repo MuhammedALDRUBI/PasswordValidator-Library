@@ -41,6 +41,8 @@ here is the Main Method code (that is found in Program Class that is found in an
         
         
         
+        
+        
          static void Main(string[] args)
         {  
             Console.WriteLine("Write Your Password !");
@@ -58,6 +60,8 @@ here is the Main Method code (that is found in Program Class that is found in an
             Console.WriteLine("Numbers Count = " + NumbersCount);
             Console.WriteLine("Symbols Count = " + SymbolsCount);
         }       
+        
+        
         
         
         
