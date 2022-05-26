@@ -1,7 +1,10 @@
 # PasswordValidator-Lirary
 PasswordValidator Class - By C#
 
+
 #usable methodes :
+
+## Note : Don't forget to use ValidationLibraries namespace 
 
 ## checkPassword(string PasswordFromInput , Byte MinPasswordLength = 9)
 - this method will return password rate (score) (Byte Data Type)
